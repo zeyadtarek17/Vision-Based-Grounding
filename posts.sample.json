@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Offline Sample 1",
+    "body": "Sample post 1 for offline testing. This verifies Notepad grounding and typing flow without API access."
+  },
+  {
+    "id": 2,
+    "title": "Offline Sample 2",
+    "body": "Sample post 2. You can change this content to match interview scenarios or stress test multiline text."
+  },
+  {
+    "id": 3,
+    "title": "Offline Sample 3",
+    "body": "Sample post 3. Set-of-Mark detection should still re-locate the icon for each iteration."
+  },
+  {
+    "id": 4,
+    "title": "Offline Sample 4",
+    "body": "Sample post 4. This mode helps when network policy blocks external endpoints."
+  },
+  {
+    "id": 5,
+    "title": "Offline Sample 5",
+    "body": "Sample post 5. Keep desktop visible so icon OCR can read the Notepad label."
+  },
+  {
+    "id": 6,
+    "title": "Offline Sample 6",
+    "body": "Sample post 6. Use dry-run first to avoid accidental clicks during debugging."
+  },
+  {
+    "id": 7,
+    "title": "Offline Sample 7",
+    "body": "Sample post 7. If icon is renamed like Notepad (2), fuzzy matching should still work."
+  },
+  {
+    "id": 8,
+    "title": "Offline Sample 8",
+    "body": "Sample post 8. Local-search-first optimization makes repeated runs faster."
+  },
+  {
+    "id": 9,
+    "title": "Offline Sample 9",
+    "body": "Sample post 9. If OCR is noisy, retry logic attempts icon detection up to three times."
+  },
+  {
+    "id": 10,
+    "title": "Offline Sample 10",
+    "body": "Sample post 10. Final offline post for validating the complete save and close loop."
+  }
+]
