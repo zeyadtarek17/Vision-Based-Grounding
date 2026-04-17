@@ -115,6 +115,35 @@ Use a custom local JSON file instead of API:
 uv run python main.py --posts-file .\posts.sample.json --dry-run --limit 3
 ```
 
+## Screenshot Deliverable (Interview)
+
+You need 3 annotated screenshots with icon in different positions.
+
+1. Move the Notepad desktop icon to top-left.
+2. Run:
+
+```powershell
+uv run python capture_annotated_grounding.py --tag top_left
+```
+
+3. Move the icon to center and run:
+
+```powershell
+uv run python capture_annotated_grounding.py --tag center
+```
+
+4. Move the icon to bottom-right and run:
+
+```powershell
+uv run python capture_annotated_grounding.py --tag bottom_right
+```
+
+Output images are stored in `docs/screenshots` and include:
+
+- highlighted icon bounding box
+- detected center coordinates
+- OCR text and match score
+
 ## Notes on Safety and Reliability
 
 - PyAutoGUI fail-safe is enabled (`move mouse to top-left corner to abort`).
